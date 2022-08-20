@@ -1,7 +1,7 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site Nucampsite",
+  "description": "This is a website for the fictional campsites review site Nucamp",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
@@ -17,5 +17,13 @@
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bree-jeune/nucampsite-bootstrap-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bree-jeune/nucampsite-bootstrap-project/issues"
+  },
+  "homepage": "https://github.com/bree-jeune/nucampsite-bootstrap-project#readme"
 }
