@@ -39,7 +39,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a href="#reserveForm" class="btn btn-info btn-lg text-white"></a>
+                    <a href="#reserveForm" class="text-nowrap btn btn-info btn-lg text-white">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
                             on the shores of the pristine React
                             Lake is a favorite for fly fishers.</p>
                     </div>
-                    <img class="d-flex mr-3 img-thumbnail" src="" />
+                    <img class="d-flex ml-3 img-thumbnail" src="/img/react-lake-thumb.jpg" />
                 </div>
             </div>
         </div>
@@ -114,9 +114,43 @@
             </div>
         </div>
     </div>
+    <div class="row row-content">
+        <div class="col-sm-6 mx-auto">
+            <div class="card">
+                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                <div class="card-body">
+                    <form id="reserveForm" class="form-group">
+                        <div class="form-group row">
+                            <label for="numCampers" class="col-form-label col-sm-6">Number of Campers</label>
+                            <div class="col">
+                                <select class="form-control" name="numCampers" id="numCampers">
+                                    <option selected>Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                            </div>
 
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-form-label col-sm-6" for="date">Date</label>
+                            <div class="col">
+                                <input class="form-control" type="date" id="date" name="date" placeholder="Date">
+                            </div>
+                        </div>
+                        <div class="col-form-label">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-
+    </div>
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -145,43 +179,7 @@
            </div>
         </div>
     </footer>
-        <div class="row row-content">
-            <div class="col-sm-6 mx-auto">
-                <div class="card">
-                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                    <div class="card-body">
-                        <form id="reserveForm" class="form-group">
-                            <div class="form-group row">
-                                <label for="numCampers" class="col-form-label col-sm-6">Number of Campers</label>
-                                <div class="col">
-                                    <select class="form-control" name="numCampers" id="numCampers">
-                                        <option selected>Select</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-
-                            </div>
-
-                            <div class="form-group row">
-                                <label class="col-form-label col-sm-6" for="date">Date</label>
-                                <div class="col">
-                                    <input class="form-control" type="date" id="date" name="date" placeholder="Date">
-                                </div>
-                            </div>
-                            <div class="col-form-label">
-                                <button class="btn btn-primary" type="submit">Search</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+        
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
